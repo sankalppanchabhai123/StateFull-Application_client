@@ -10,7 +10,7 @@ export const useAuthStore = create((set, get) => ({
   isUpdatingProfile: false,
   isCheckingAuth: true, // Indicates if authentication status is being checked
   socket: null, // Socket connection instance
-  BASE_URL: import.meta.env.MODE === "development" ? "http://localhost:3000/api" : "https://real-time-chat-app-with-video-call-using.onrender.com", // Backend API base URL
+  BASE_URL: import.meta.env.MODE === "development" ? "http://localhost:3000/api" : "https://state-full-application-server-yagf.vercel.app", // Backend API base URL
   onlineUsers: [], // List of online users
 
   // Check if the user is authenticated
